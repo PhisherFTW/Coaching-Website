@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  background-image: url('csgobackground.jpg');
+  background-repeat: no-repeat;
+}
+.header {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  margin-bottom: 0;
+}
+.profile-image {
+  position: relative;
+  margin-left: 300px;
+  border-radius: 360%;
+  height: 200px;
+  top: 45px;
+  margin-right: 20px;
+}
+.bio {
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+  margin-bottom: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color:#36f35b;
+  padding: 20px;
+
+}
+a:hover {
+  text-decoration: underline;
+  color: #ff7235;
+}
+h2 {
+  background-color: black;
+  color: #36f35b;
+}
+
+.reviewimages {
+  height: 150px;
+}
+ul {
+  list-style: none;
+}
+.continuous {
+  color: white;
+}
+.courses {
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+.individual {
+  color: white;
+}
+hr {
+  margin: 40px 0;
+}
+.Contact {
+  color: white;
+}
+.brief {
+  color: white;
+}
