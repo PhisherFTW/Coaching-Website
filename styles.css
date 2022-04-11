@@ -39,8 +39,11 @@ a:hover {
   color: #ff7235;
 }
 h2 {
+  display: inline-block;
   background-color: black;
   color: #36f35b;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .reviewimages {
@@ -53,7 +56,7 @@ ul {
   color: white;
 }
 .courses {
-  width: 60%;
+  width: 45%;
   margin: 0 auto;
   color: white;
 }
@@ -68,4 +71,43 @@ hr {
 }
 .brief {
   color: white;
+}
+.onceoff {
+  margin: 0 auto;
+}
+.movementimg {
+  position: absolute;
+  top: 3100px;
+  left: 400px;
+  height: 100px;
+}
+.crosshairimg {
+  position: absolute;
+  top: 3800px;
+  left: 400px;
+  height: 100px;
+}
+.utilityimg {
+  position: absolute;
+  top: 3550px;
+  left: 400px;
+  height: 100px;
+}
+.headshotimg {
+  position: absolute;
+  top: 2850px;
+  left: 400px;
+  height: 100px;
+}
+.entryimg {
+  position: absolute;
+  top: 3325px;
+  left: 400px;
+  height: 100px;
+}
+.recommendedimg {
+  position: absolute;
+  top: 2030px;
+  left: 470px;
+  height: 50px;
 }
