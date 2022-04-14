@@ -77,37 +77,37 @@ hr {
 }
 .movementimg {
   position: absolute;
-  top: 3100px;
-  left: 400px;
+  top: 2900px;
+  left: 600px;
   height: 100px;
 }
 .crosshairimg {
   position: absolute;
-  top: 3800px;
-  left: 400px;
+  top: 3600px;
+  left: 600px;
   height: 100px;
 }
 .utilityimg {
   position: absolute;
-  top: 3550px;
-  left: 400px;
+  top: 3350px;
+  left: 600px;
   height: 100px;
 }
 .headshotimg {
   position: absolute;
-  top: 2850px;
-  left: 400px;
+  top: 2650px;
+  left: 600px;
   height: 100px;
 }
 .entryimg {
   position: absolute;
-  top: 3325px;
-  left: 400px;
+  top: 3125px;
+  left: 600px;
   height: 100px;
 }
 .recommendedimg {
   position: absolute;
-  top: 2030px;
-  left: 470px;
+  top: 1875px;
+  left: 660px;
   height: 50px;
 }
