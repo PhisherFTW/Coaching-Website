@@ -2,31 +2,51 @@ body {
   text-align: center;
   margin: 0;
   background-color: black;
-  background-image: url('csgobackground.jpg');
+  background-image: url('images/csgobackground.jpg');
   background-repeat: no-repeat;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+.website-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .header {
   font-family: 'Playfair Display', serif;
   color: white;
   margin-bottom: 0;
 }
+.header-p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .profile-image {
-  position: relative;
-  margin-left: 300px;
-  border-radius: 360%;
   height: 200px;
-  top: 45px;
-  margin-right: 20px;
+  border-radius: 50%;
+}
+.pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+.pricing p {
+  width: 250px;
+  padding: 0 20px;
 }
 .bio {
-  display: inline-block;
-  width: 500px;
-  text-align: left;
-  margin-bottom: 50px;
-  background-color: black;
+  display: flex;
+  width: 700px;
   color: white;
-  padding: 10px;
-  border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -45,6 +65,11 @@ h2 {
   padding: 5px;
   border-radius: 10px;
 }
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .reviewimages {
   height: 150px;
@@ -59,6 +84,18 @@ ul {
   width: 45%;
   margin: 0 auto;
   color: white;
+}
+.courses h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.recommendimg-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
 }
 .individual {
   color: white;
@@ -75,39 +112,9 @@ hr {
 .onceoff {
   margin: 0 auto;
 }
-.movementimg {
-  position: absolute;
-  top: 2900px;
-  left: 600px;
-  height: 100px;
+.onceoff-txt {
+  margin: 0 100px;
 }
-.crosshairimg {
-  position: absolute;
-  top: 3600px;
-  left: 600px;
+.imgs {
   height: 100px;
-}
-.utilityimg {
-  position: absolute;
-  top: 3350px;
-  left: 600px;
-  height: 100px;
-}
-.headshotimg {
-  position: absolute;
-  top: 2650px;
-  left: 600px;
-  height: 100px;
-}
-.entryimg {
-  position: absolute;
-  top: 3125px;
-  left: 600px;
-  height: 100px;
-}
-.recommendedimg {
-  position: absolute;
-  top: 1875px;
-  left: 660px;
-  height: 50px;
 }
